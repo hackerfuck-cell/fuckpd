@@ -1,0 +1,8 @@
+{
+  "name": "Bug Hunting Lab",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:1": {}
+  },
+  "postCreateCommand": "apt-get update && apt-get install -y zaproxy nikto sqlmap hydra"
+}
+
